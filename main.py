@@ -42,7 +42,7 @@ def main():
     df['Polarity'] = df['Tweets'].apply(get_polarity)
     df['Analysis'] = df['Polarity'].apply(analysis)
 
-    #get_most_used_words(df)
+    get_most_used_words(df)
     get_sentimental_analyis(df)  
 
 
